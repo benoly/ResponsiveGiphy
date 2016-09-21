@@ -13,8 +13,8 @@ header {
 }
 
 header img {
-  width: 1000px;
-}
+    width: 1000px;
+  }
 
 footer {
   background-color: #8d8d8d;
@@ -22,4 +22,25 @@ footer {
   width: 100vw;
   text-align: center;
   padding-top: 25px;
+}
+
+.giphyPlacement {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  header img {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 711px) {
+  header h2 a {
+  display: block;
+  }
 }
